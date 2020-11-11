@@ -36,4 +36,4 @@ In javascript > packs > jsx file, get the pack tag and add it in `application.ht
 ```
 
 ## References
-- https://zayne.io/articles/how-to-build-a-crud-app-with-ruby-on-rails-and-react-part-2
+- https://www.youtube.com/watch?v=oyjzi837wME
