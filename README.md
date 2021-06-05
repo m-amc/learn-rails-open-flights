@@ -1,9 +1,11 @@
 # Open Flights using Rails and React
 
 ## Creating a new app
+
 `rails new open-flights --webpack=react --database=postgresql -T`
 
 ## Postgresql
+
 Start manually
 `pg_ctl -D /usr/local/var/postgres start`
 
@@ -16,9 +18,11 @@ Start automatically
 `brew services start postgresql`
 
 ## Create a new database
+
 `rails db:create`
 
 ## Models
+
 `rails g model Airline name image_url slug`
 
 `rails g model Review title description:text score:integer airline:belongs_to`
@@ -26,6 +30,7 @@ Start automatically
 ## Serializer
 
 ## Views
+
 In javascript > packs > jsx file, get the pack tag and add it in `application.html.erb` like so:
 
 ```ruby
@@ -36,4 +41,6 @@ In javascript > packs > jsx file, get the pack tag and add it in `application.ht
 ```
 
 ## References
+
 - https://www.youtube.com/watch?v=oyjzi837wME
+- https://reactjs.org/tutorial/tutorial.html
